@@ -94,3 +94,33 @@ footer i{
     color: #05f7e2;
     text-align: center;
 }
+
+.malwarenav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.malwarenav h2 {
+    color: rgb(234, 229, 241);
+}
+
+.content nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+.content nav ul li a{
+    color: rgb(234, 229, 241);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.content ul li a:hover{
+    color: red;
+    transition: .4s;
+}
