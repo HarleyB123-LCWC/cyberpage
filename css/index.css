@@ -109,3 +109,108 @@ footer i{
     color: #05f7e2;
     text-align: center;
 }
+
+.contentmal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.contentmal nav h2 {
+    color: rgb(234, 229, 241);
+}
+
+.contentmal nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+.contentmal nav ul li a{
+    color: rgb(234, 229, 241);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.contentmal ul li a:hover{
+    color: red;
+    transition: .4s;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+
+}
+.card{
+    height: 450px;
+    width: 965px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: red;
+}
+.card h5{
+    color: white;
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+}
+.pra p{
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.card p a{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    margin-top: 20px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.card p a:hover{
+    background-color: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+.rats {
+    background-color: #101010;
+}
+.ransomwares {
+    background-color: rgb(146, 52, 52);
+}
+.viruses {
+    background-color: #a72323;
+}
+.trojans {
+    background-color: rgb(187, 136, 40);
+}
+.worms {
+    background-color: #e9c80c;
+}
+.spyware {
+    background-color: rgb(134, 245, 7);
+}
